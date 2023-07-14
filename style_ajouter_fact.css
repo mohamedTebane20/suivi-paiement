@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .header img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .header h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 0px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .form-group input:focus {
+    box-shadow: 0 0 3px #EC8C34;
+    border-color: #EC8C34;
+    outline: #EC8C34;
+  }
+  
+  
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group.double-size {
+    grid-column: 1 / -1;
+  }
+
+  .form-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .container h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+
+  .form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EC8C34; /* Orange pour le bouton Ajouter */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-buttons button.cancel {
+    background-color: #ff0000; /* Rouge pour le bouton Annuler */
+  }
+  
+  .form-buttons button:hover {
+    background-color: #E07000; /* Orange plus foncé pour le survol du bouton Ajouter */
+  }
+  
+  .form-buttons button.cancel:hover {
+    background-color: #cc0000; /* Rouge plus foncé pour le survol du bouton Annuler */
+  }

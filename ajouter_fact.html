@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire Sonatrach</title>
+  <link rel="stylesheet" href="style_ajouter_fact.css">
+</head>
+<body>
+  <div class="header">
+    <img src="https://sonatrach.com/img/logo.png" alt="Logo Sonatrach">
+    <h2>Secrétariat Général</h2>
+    <h2>Direction Gestion du Patrimoine Siège</h2>
+    <br>
+    <h2>Département Transport</h2>
+  </div>
+  
+  <div class="container">
+    <h2 style="grid-column: 1 / -1;">Ajout d'une nouvel facture</h2>
+    <div class="form-group">
+      <label for="numero_facture">Numéro Facture</label>
+      <input type="text" id="numero_facture" name="numero_facture" required>
+    </div>
+    <div class="form-group">
+      <label for="date_facture">Date Facture</label>
+      <input type="date" id="date_facture" name="date_facture" required>
+    </div>
+    <div class="form-group">
+      <label for="montant_facture">Montant Facture</label>
+      <input type="number" id="montant_facture" name="montant_facture" required>
+    </div>
+    <div class="form-group">
+      <label for="prestataire">Prestataire/Fournisseur</label>
+      <input type="text" id="prestataire" name="prestataire" required>
+    </div>
+    <div class="form-group">
+      <label for="document_engagement">Document Engagement</label>
+      <input type="text" id="document_engagement" name="document_engagement" required>
+    </div>
+    <div class="form-group">
+      <label for="numero_doc_engagement">Numéro Doc Engagement</label>
+      <input type="text" id="numero_doc_engagement" name="numero_doc_engagement" required>
+    </div>
+    <div class="form-group double-size">
+      <label for="date_doc_engagement">Date Doc Engagement</label>
+      <input type="date" id="date_doc_engagement" name="date_doc_engagement" required>
+    </div>
+  </div>
+  
+  <div class="form-buttons" style="text-align: center; margin-top: 20px;">
+    <button type="submit">Valider</button>
+    <button type="button" class="cancel">Annuler</button>
+  </div>
+</body>
+</html>
